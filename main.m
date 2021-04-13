@@ -132,7 +132,7 @@ for true_loc_idx = 1:size(true_loc,1)
     psi_STFT =calc_FD_GCC(y_STFT);
     
     % conventional SRP
-    disp('* compute conventional SRP (stay tuned, this will take a few minutes)...')
+    disp('* compute conventional SRP (stay tuned, this may take a minute)...')
     tic;
     SRP_conv = calc_SRPconv(psi_STFT, omega, Delta_t_i);
     toc;
