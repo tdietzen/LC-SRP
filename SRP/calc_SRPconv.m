@@ -19,9 +19,7 @@ for l = 1:L
     SRP_FD = zeros(K,J);
     for k = 2:K
         psi = squeeze(Psi_STFT(k,l,:));
-        for i = 1:J
-            SRP_FD(k,i) = exp(1j*Delta_t_i(i,:)*omega(k))*psi; % (8)
-        end
+        SRP_FD(k,:) = exp(1j*Delta_t_i*omega(k))*psi; % (8)
     end
     SRP_stack(l,:) = 2*sum(real(SRP_FD), 1); % (9)
 end
