@@ -4,6 +4,9 @@
 % This software is distributed under the terms of the GNU Public License
 % version 3 (http://www.gnu.org/licenses/gpl.txt).
 %
+% A Python version of this code is available at
+% https://github.com/bilgesu13/LC-SRP-python.
+%
 % If you find it useful, please cite:
 %
 % [1] T. Dietzen, E. De Sena, and T. van Waterschoot, "Low-Complexity
